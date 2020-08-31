@@ -8,8 +8,10 @@ export class TriviaDataService {
 
   constructor(private http: HttpClient) { }
 
+  data = '../../assets/data/trivia.json'
+
   triviaData(){
-    return this.http.get('../../assets/data/trivia.json')
+    return this.http.get(this.data)
   }
 
 }
