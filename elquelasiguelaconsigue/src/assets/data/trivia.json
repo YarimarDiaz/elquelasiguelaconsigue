@@ -1,0 +1,64 @@
+{
+    "trivia": [
+        {
+            "question": "Me puedo contagiar de la enfermedad del coronavirus (COVID-19) si estoy cerca de una persona contagiada que tose y/o estornuda",
+            "answer": true,
+            "explanation": "La enfermedad del COVID-19 se propaga principalmente a través de gotas que salen despedidas de la nariz o la boca de una persona infectada al toser, estornudar o hablar. Es por ello que una persona puede contraer el COVID‑19 si las inhala.",
+            "source": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+        },
+        {
+            "question": "Beber, inyectarse o aplicar a la piel cloro (lejía) u otros desinfectantes me protege de contraer el Covid-19.",
+            "answer": false,
+            "explanation": "Jamás se debe usar cloro (lejía) u otros desinfectantes sobre el cuerpo, ni beberlos ni inyectarlos. Estas sustancias son tóxicas, el contacto con la piel, la irrita y daña. Puede causar irritación en los ojos. Incluso causar la muerte si se ingieren o se inyectan.",
+            "source": "https://www.bbc.com/mundo/noticias-52417742"
+        },
+        {
+            "question": "El alcohol gel no mata al virus porque es antibacterial no antiviral. ",
+            "answer": false,
+            "explanation": "El alcohol gel al 60% de alcohol es idóneo para matar el coronavirus, pero se prefiere el uso de agua y jabón. Ocupa alcohol gel sólo cuando no puedas lavarte las manos con agua y jabón.",
+            "source": "https://www.uc.cl/noticias/guia-rapida-para-contrarrestar-el-avance-del-coronavirus/"
+        },
+        {
+            "question": "Mi perro o gato me puede contagiar de coronavirus.",
+            "answer": false,
+            "explanation": "No hay ninguna evidencia de que el coronavirus pueda transmitirse a la gente o a otros animales a través de la piel o el pelo de una mascota.",
+            "source": "https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/expert-answers/can-pets-get-coronavirus/faq-20486391"
+        },
+        {
+            "question": "No existe todavía vacuna, medicamento o tratamiento específico para el coronavirus.",
+            "answer": true,
+            "explanation": "Hasta ahora ningún medicamento ha demostrado prevenir o curar esta enfermedad. La Organización Mundial de la Salud (OMS) no recomienda automedicarse con ningún fármaco, incluidos los antibióticos, para prevenir o curar la COVID-19.",
+            "source": "https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/expert-answers/coronavirus-drugs/faq-20485627"
+        },
+        {
+            "question": "El distanciamiento físico o social baja considerablemente las posibilidades de contagiarme de coronavirus.",
+            "answer": true,
+            "explanation": "Efectivamente, el distanciamiento físico o social, es una herramienta que los profesionales de la salud recomiendan para disminuir la propagación del coronavirus.",
+            "source": "https://ciperchile.cl/2020/03/16/distancia-social-que-es-y-por-que-es-la-mejor-herramienta-que-tenemos-para-pelear-con-el-coronavirus/"
+        },
+        {
+            "question": "La pérdida del sentido del olfato y del gusto son síntomas de COVID-19.",
+            "answer": true,
+            "explanation": "Si bien los síntomas más comunes del COVID-19 son la fiebre, la tos seca y el cansancio. Están considerados también como síntomas importantes la pérdida del olfato y gusto.",
+            "source": "https://www.bbc.com/mundo/noticias-53834519"
+        },
+        {
+            "question": "Usar mascarillas, no me ayuda para protegerme del COVID-19.",
+            "answer": false,
+            "explanation": "Tanto las mascarillas médicas como las de tela hechas en casa, nos pueden proteger de contagiarnos del virus y a la vez, si es que ya lo estamos evitar contagiar a los demás. ",
+            "source": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-on-covid-19-and-masks"
+        },
+        {
+            "question": "Lavarse las manos sólo toma unos 10 segundos y puedo hacerlo sólo con agua.",
+            "answer": false,
+            "explanation": "Deberías dedicar entre 20 y 30 segundos a lavarte las manos. Una manera sencilla de calcularlo es cantar la canción del cumpleaños feliz entera dos veces. ¡Es igual para el desinfectante de manos!",
+            "source": "https://www.unicef.org/es/coronavirus/todo-lo-que-debes-saber-sobre-el-lavado-de-manos-para-protegerte-del-coronavirus-covid19 "
+        },
+        {
+            "question": "Enfermarse de coronavirus no es lo mismo que tener una gripe.",
+            "answer": true,
+            "explanation": "La gripe y el COVID-19 son enfermedades respiratorias contagiosas, pero son provocadas por virus diferentes. El COVID-19 es causado por la infección de un nuevo coronavirus (¡llamado en realidad SARS-CoV-2!) y la gripe es causada por la infección de los virus de la influenza.",
+            "source": "https://espanol.cdc.gov/flu/symptoms/flu-vs-covid19.htm"
+        }
+    ]
+}
