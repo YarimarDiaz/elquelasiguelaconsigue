@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TriviaDataService } from '../../services/trivia-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-trivia',
@@ -8,14 +9,22 @@ import { TriviaDataService } from '../../services/trivia-data.service';
 })
 export class TriviaComponent implements OnInit {
 
-  triviaDataCall: any[] = [];
+  get trivia(): any {
+    return this.triviaDataService.trivia;
+  } 
 
-  constructor(private triviaDataService: TriviaDataService) {
-    this.triviaDataService.triviaData().subscribe(result => {
-      console.log(result);
-      this.triviaDataCall = result['trivias']
-    })
-   }
+  get lives(): number {
+    return this.triviaDataService.lives;
+  }
+
+  constructor(private triviaDataService: TriviaDataService, 
+              private router: Router) {}
+
+  answer(option) {
+    console.log(option);
+    this.triviaDataService.answer(option);
+    this.router.navigateByUrl('/trivia-answer');
+  }
 
   ngOnInit(): void {
   }
