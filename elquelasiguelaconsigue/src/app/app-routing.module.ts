@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { TriviaComponent } from './components/trivia/trivia.component';
 import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.component';
+import { InfomemesComponent } from './components/infomemes/infomemes.component';
+import { RankingComponent } from './components/ranking/ranking.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
   {
     path: 'trivia-answer',
     component: TriviaAnswerComponent
+  },
+  {
+    path: 'infomemes',
+    component: InfomemesComponent
+  },
+  {
+    path: 'ranking',
+    component: RankingComponent
   }
 ];
 
