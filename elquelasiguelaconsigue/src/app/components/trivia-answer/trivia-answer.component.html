@@ -1,0 +1,23 @@
+<div class="container">
+    <div style="float: left" *ngFor="let item of [].constructor(lives); let i = index">
+        <img style="height: 30px; width: 30px;" src="../../../assets/img/heart.svg" alt="corazón">
+    </div>
+    <div>
+        <div>
+            <p>{{trivia.question}}</p>
+            <div *ngIf="isCurrentAnswerCorrect; else elseBlock">
+                <p>¡Muy Bien!</p>
+                <img src="" alt="cara feliz">
+            </div>
+            <ng-template #elseBlock>
+                <p>¡Incorrecto!</p>
+                <img src="" alt="cara confundida">
+            </ng-template>
+            <p>{{trivia.explanation}}</p>
+            <p>{{trivia.source}}</p>
+            <button (click)="next()">
+                <img src="../../../assets/img/arrowright.svg" alt="continuar">
+            </button>
+        </div>
+    </div>  
+</div>
