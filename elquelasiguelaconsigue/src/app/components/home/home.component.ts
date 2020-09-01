@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
     const data = '../../assets/data/trivia.json'
     
     this.http.get(data).subscribe(result => {
+      this.triviaDataService.reset();
       this.triviaDataService.userName = userName;
       this.triviaDataService.updateTrivias = result['trivias'];
       this.router.navigateByUrl('/trivia');

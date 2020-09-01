@@ -30,19 +30,40 @@ export class TriviaDataService {
   }
 
   get gameHasFinished(): boolean {
-    return this.incorrectTrivias.length == this.maximum_incorrect_answers;
+    if (this.incorrectTrivias.length == this.maximum_incorrect_answers) {
+      return true;
+    } 
+    
+    if (this.step > this.trivias.length) {
+      return true;
+    }
+
+    return false;
   }
 
   get isCurrentAnswerCorrect(): boolean {
     return !this.incorrectTrivias.includes(this.trivia);
   }
 
+  get lives(): number {
+    return this.maximum_incorrect_answers - this.incorrectTrivias.length;
+  }
+
   constructor(private http: HttpClient) { }
+
+  next() {
+    this.step++;
+  }
 
   answer(option) {
     if (this.trivia.answer != option) {
       this.incorrectTrivias.push(this.trivia);
     }
+  }
+
+  reset() {
+    this.step = 0;
+    this.incorrectTrivias = [];
   }
 
 }

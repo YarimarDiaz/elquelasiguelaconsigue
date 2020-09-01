@@ -13,6 +13,10 @@ export class TriviaComponent implements OnInit {
     return this.triviaDataService.trivia;
   } 
 
+  get lives(): number {
+    return this.triviaDataService.lives;
+  }
+
   constructor(private triviaDataService: TriviaDataService, 
               private router: Router) {}
 
