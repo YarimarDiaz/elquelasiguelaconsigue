@@ -8,14 +8,16 @@ import { TriviaDataService } from '../../services/trivia-data.service';
 })
 export class TriviaComponent implements OnInit {
 
-  triviaDataCall: any[] = [];
+  get trivia(): any {
+    return this.triviaDataService.trivia;
+  } 
 
-  constructor(private triviaDataService: TriviaDataService) {
-    this.triviaDataService.triviaData().subscribe(result => {
-      console.log(result);
-      this.triviaDataCall = result['trivias']
-    })
-   }
+  constructor(private triviaDataService: TriviaDataService) {}
+
+  answer(option) {
+    this.triviaDataService.answer(option);
+    
+  }
 
   ngOnInit(): void {
   }
