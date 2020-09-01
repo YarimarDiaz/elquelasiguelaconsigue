@@ -1,0 +1,59 @@
+.img img {
+  width: 100px;
+}
+
+.table th {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #582999;
+}
+
+.table td {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #582999;
+}
+
+.btn {
+  background-color: #582999;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.table {
+  background-color: #E5E6FA;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #582999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: #582999;
+ opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color: #582999;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #582999;
+}
+
+.input-group-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #582999;
+}
