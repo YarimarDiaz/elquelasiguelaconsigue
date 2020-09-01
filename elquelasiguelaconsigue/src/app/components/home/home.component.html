@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6 col-xs-12">
       <table class="table">
         <thead>
           <tr>
@@ -13,20 +13,9 @@
           </tr>
         </tbody>
         <br>
-        <br>
-        <br>
-        <br>
-        <div class="input-group flex-nowrap">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="addon-wrapping">Nombre</span>
-          </div>
-          <input type="text" id="user-name" required class="form-control" 
-          placeholder="Nombre de Usuario ej: Camil@" aria-label="Username" 
-          aria-describedby="addon-wrapping" #userName>
-        </div>
       </table>
     </div>
-    <div class="col-6">
+    <div class="col-md-6 col-xs-12">
       <table class="table">
         <thead>
           <tr>
@@ -38,7 +27,12 @@
             <td>Es un juego de preguntas con opción de verdadero y falso.</td>
           </tr>
           <tr>
-            <td>Foto</td>
+            <td>
+              <div class="img">
+                <img src="../../../assets/img/BotonV.png">
+                <img src="../../../assets/img/BotonF.png">
+              </div>
+            </td>
           </tr>
           <tr>
             <td>Pincha con el ratón  la respuesta que consideres la correcta.</td>
@@ -48,7 +42,17 @@
           </tr>
         </tbody>
       </table>
+      <div class="input-group flex-nowrap">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="addon-wrapping">Nombre</span>
+        </div>
+        <input type="text" id="user-name" required class="form-control" 
+          placeholder="Nombre de Usuario ej: Camil@" aria-label="Username" 
+          aria-describedby="addon-wrapping" #userName>
+      </div>
+      <br>
       <button (click)="start(userName.value)" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Comenzar</button>
     </div>
   </div>
 </div>
+<br>

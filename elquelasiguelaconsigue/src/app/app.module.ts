@@ -9,6 +9,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TriviaComponent } from './components/trivia/trivia.component';
 import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.component';
+import { InfomemesComponent } from './components/infomemes/infomemes.component';
+import { GameOverComponent } from './components/game-over/game-over.component';
+import { RankingComponent } from './components/ranking/ranking.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.
     NavbarComponent,
     FooterComponent,
     TriviaComponent,
-    TriviaAnswerComponent
+    TriviaAnswerComponent,
+    InfomemesComponent,
+    GameOverComponent,
+    RankingComponent
   ],
   imports: [
     BrowserModule,
