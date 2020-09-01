@@ -1,0 +1,17 @@
+<div class="container">
+    <div>
+        <div>
+            <p>{{trivia.question}}</p>
+            <div *ngIf="isCurrentAnswerCorrect; else elseBlock">
+                <p>¡Muy Bien!</p>
+                <img src="" alt="cara feliz">
+            </div>
+            <ng-template #elseBlock>
+                <p>¡Incorrecto!</p>
+                <img src="" alt="cara confundida">
+            </ng-template>
+            <p>{{trivia.explanation}}</p>
+            <p>{{trivia.source}}</p>
+        </div>
+    </div>  
+</div>

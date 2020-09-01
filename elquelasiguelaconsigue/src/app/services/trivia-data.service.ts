@@ -33,12 +33,14 @@ export class TriviaDataService {
     return this.incorrectTrivias.length == this.maximum_incorrect_answers;
   }
 
-  
+  get isCurrentAnswerCorrect(): boolean {
+    return !this.incorrectTrivias.includes(this.trivia);
+  }
 
   constructor(private http: HttpClient) { }
 
   answer(option) {
-    if (this.trivia.answer == option) {
+    if (this.trivia.answer != option) {
       this.incorrectTrivias.push(this.trivia);
     }
   }

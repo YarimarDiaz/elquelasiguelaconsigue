@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TriviaComponent } from './components/trivia/trivia.component';
+import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TriviaComponent } from './components/trivia/trivia.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    TriviaComponent
+    TriviaComponent,
+    TriviaAnswerComponent
   ],
   imports: [
     BrowserModule,
