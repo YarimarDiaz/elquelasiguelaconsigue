@@ -1,8 +1,18 @@
-<div>
+<div class="container-fluid">
+    <!--<div>
+        <img src="../../../assets/img/heart.svg" alt="corazón">
+    </div>-->
     <div class="triviaInfo" *ngFor="let trivia of triviaDataCall; index as i">
-        <p>{{trivia.question}}</p>
-        <p>{{trivia.answer}}</p>
-        <p>{{trivia.explanation}}</p>
-        <p>{{trivia.source}}</p>
+        <div class="container trivia-question">
+            <p>{{trivia.question}}</p>
+            <button class="btn btn-true">Verdadero</button>
+            <button class="btn btn-false">Falso</button>
+        </div>
+        <div class="container trivia-explanation" id="explanation">
+            <p>{{trivia.explanation}}</p>
+        </div>
+        <div class="container trivia-source" id="source">
+            <p>{{trivia.source}}</p>
+        </div>
     </div>
 </div>
