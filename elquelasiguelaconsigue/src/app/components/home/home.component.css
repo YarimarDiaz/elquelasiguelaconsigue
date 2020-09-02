@@ -58,3 +58,37 @@
   line-height: 23px;
   color: #582999;
 }
+
+.btn-true, .btn-false {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;;
+  font-size: 12px;
+  color: white;
+}
+
+.btn-true {
+  background-color: #72BAEC;
+  -webkit-border-bottom-left-radius: 250px;
+  -moz-border-radius-bottomleft: 250px;
+  border-bottom-left-radius: 143px;
+}
+
+.btn-false {
+  background-color: #ec8213;
+  -webkit-border-bottom-right-radius: 250px;
+  -moz-border-radius-bottomright: 250px;
+  border-bottom-right-radius: 143px;
+}
+
+.question-text {
+  height: 300px;
+  color: white;
+  background-color: #582999;
+  padding: 53px;
+  font-size: 43px;
+}
+
+.btn-container {
+  justify-content: space-between;
+  padding: 0px;
+}
