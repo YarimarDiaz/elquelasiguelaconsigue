@@ -1,0 +1,21 @@
+.table th {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.table td {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.table {
+  background-color: #582999;
+}
