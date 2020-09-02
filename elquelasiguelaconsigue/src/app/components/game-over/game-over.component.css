@@ -7,3 +7,13 @@ h1 {
   color: #582999;
   text-align: center;
 }
+
+.btn {
+  background-color: #582999;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
