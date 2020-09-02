@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
     <div style="float: left" *ngFor="let item of [].constructor(lives); let i = index">
         <img style="height: 30px; width: 30px;" src="../../../assets/img/heart.svg" alt="corazón">
     </div>
@@ -19,5 +19,78 @@
                 <img src="../../../assets/img/arrowright.svg" alt="continuar">
             </button>
         </div>
-    </div>  
+    </div>
+</div>-->
+
+
+<!--<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-xs-12">
+      <div *ngFor="let item of [].constructor(lives); let i = index">
+        <img src="../../../assets/img/heart.svg" alt="Responsive image" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-md-6 col-xs-12">
+      <div>
+        <p>{{trivia.question}}</p>
+      </div>
+    </div>
+    <div class="col-md-6 col-xs-12">
+      <div *ngIf="isCurrentAnswerCorrect; else elseBlock">
+        <h1>¡Muy Bien!</h1>
+      </div>
+        <ng-template #elseBlock>
+          <h1>¡Incorrecto!</h1>
+        </ng-template>
+    </div>
+    <div class="col-md-6 col-xs-12">
+      <p>{{trivia.explanation}}</p>
+    </div>
+    <div class="col-md-6 col-xs-12">
+      <p>{{trivia.source}}</p>
+    </div>
+    <div>
+      <button (click)="next()">
+        <img src="../../../assets/img/arrowright.svg" alt="continuar">
+    </button>
+    </div>
+  </div>
 </div>
+<br>-->
+
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th>
+        <div *ngFor="let item of [].constructor(lives); let i = index" style="float: left">
+          <img style=" display:inline-block; height:30px; width: 30px;" src="../../../assets/img/heart.svg" alt="Responsive image" class="img-fluid">
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div>{{trivia.question}}</div>
+      </td>
+    </tr>
+    <tr>
+      <td *ngIf="isCurrentAnswerCorrect; else elseBlock">¡Muy Bien!</td>
+    </tr>
+    <ng-template #elseBlock>
+      <p>¡Incorrecto!</p>
+    </ng-template>
+    <tr>
+      <td>{{trivia.explanation}}</td>
+    </tr>
+    <tr>
+      <td>{{trivia.source}}</td>
+    </tr>
+  </tbody>
+  <div>
+    <button (click)="next()">
+      <img src="../../../assets/img/arrowright.svg" alt="continuar">
+  </button>
+  </div>
+</table>
+<br/>
