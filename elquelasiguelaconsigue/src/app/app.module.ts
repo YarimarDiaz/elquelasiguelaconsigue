@@ -13,6 +13,7 @@ import { InfomemesComponent } from './components/infomemes/infomemes.component';
 import { GameOverComponent } from './components/game-over/game-over.component';
 import { RankingComponent } from './components/ranking/ranking.component';
 import { ResultComponent } from './components/result/result.component';
+import { ResultsComponent } from './components/results/results.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ResultComponent } from './components/result/result.component';
     GameOverComponent,
     RankingComponent,
     ResultComponent
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
