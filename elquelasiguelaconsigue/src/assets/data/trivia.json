@@ -1,7 +1,7 @@
 {
     "trivias": [
         {
-            "question": "Me puedo contagiar de la enfermedad del coronavirus (COVID-19) si estoy cerca de una persona contagiada que tose y/o estornuda",
+            "question": "Me puedo contagiar de la enfermedad del coronavirus (COVID-19) si estoy cerca de una persona contagiada que tose y/o estornuda.",
             "answer": true,
             "explanation": "La enfermedad del COVID-19 se propaga principalmente a través de gotas que salen despedidas de la nariz o la boca de una persona infectada al toser, estornudar o hablar. Es por ello que una persona puede contraer el COVID‑19 si las inhala.",
             "source": "https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
