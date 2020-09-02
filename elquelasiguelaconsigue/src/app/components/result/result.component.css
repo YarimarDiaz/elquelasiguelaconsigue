@@ -1,0 +1,36 @@
+.img-fluid {
+  width: 200px; /* You can set the dimensions to whatever you want */
+  object-fit: cover;
+}
+
+.table {
+  background-color: #E5E6FA;
+}
+
+.table th {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #582999;
+}
+
+.table td {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #582999;
+}
+
+.btn {
+  background-color: #582999;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}

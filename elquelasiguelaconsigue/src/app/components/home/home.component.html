@@ -46,12 +46,14 @@
         <div class="input-group-prepend">
           <span class="input-group-text" id="addon-wrapping">Nombre</span>
         </div>
-        <input type="text" id="user-name" required class="form-control" 
-          placeholder="Nombre de Usuario ej: Camil@" aria-label="Username" 
+        <input type="text" id="user-name" required class="form-control"
+          placeholder="Ejemplo: Camil@" aria-label="Username"
           aria-describedby="addon-wrapping" #userName>
       </div>
       <br>
-      <button (click)="start(userName.value)" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Comenzar</button>
+      <div style="margin-left: 0px;text-align: center;">
+        <button (click)="start(userName.value)" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Comenzar</button>
+      </div>
     </div>
   </div>
 </div>
