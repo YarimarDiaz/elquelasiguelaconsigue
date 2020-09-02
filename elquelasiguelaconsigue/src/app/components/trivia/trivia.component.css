@@ -1,14 +1,4 @@
 
-.container-heart{
-  margin: 15px;
-}
-
-.heart-icon {
-    height: 86px; 
-    width: 106px;
-    margin-right: 5px;
-}
-
 .trivia-question {
     font-family: 'Oswald', sans-serif;
     display: flex;
@@ -20,31 +10,29 @@
 }
 
 .btn-true, .btn-false {
-    text-align: center; 
-    padding: 45px;
-    height: 196px;
-    width: 375px;
+    text-align: center;
     font-family: 'Roboto', sans-serif;;
-    font-size: 43px;
+    font-size: 20px;
     color: white;
+    min-height: 60px;
 }
 
 .btn-true {
     background-color: #72BAEC;
     -webkit-border-bottom-left-radius: 250px;
     -moz-border-radius-bottomleft: 250px;
-    border-bottom-left-radius: 143px; 
+    border-bottom-left-radius: 143px;
 }
 
 .btn-false {
     background-color: #ec8213;
-    -webkit-border-bottom-right-radius: 250px; 
-    -moz-border-radius-bottomright: 250px; 
+    -webkit-border-bottom-right-radius: 250px;
+    -moz-border-radius-bottomright: 250px;
     border-bottom-right-radius: 143px;
 }
 
 .question-text {
-    height: 300px;
+    min-height: 300px;
     color: white;
     background-color: #582999;
     padding: 53px;
@@ -54,5 +42,4 @@
 .btn-container {
     justify-content: space-between;
     padding: 0px;
-    margin-top: 88px;
 }
