@@ -12,7 +12,7 @@ import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.
 import { InfomemesComponent } from './components/infomemes/infomemes.component';
 import { GameOverComponent } from './components/game-over/game-over.component';
 import { RankingComponent } from './components/ranking/ranking.component';
-import { ResultsComponent } from './components/results/results.component';
+import { ResultComponent } from './components/result/result.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { ResultsComponent } from './components/results/results.component';
     InfomemesComponent,
     GameOverComponent,
     RankingComponent,
-    ResultsComponent
+    ResultComponent,
   ],
   imports: [
     BrowserModule,
