@@ -32,8 +32,13 @@ export class TriviaAnswerComponent implements OnInit {
   next() {
     this.triviaDataService.next();
 
-    if (this.triviaDataService.gameHasFinished) {
+    if (this.triviaDataService.gameHasFinishedWithError) {
       this.router.navigateByUrl('/game-over');
+      return;
+    }
+
+    if (this.triviaDataService.gamehasFinishedSuccessfully) {
+      this.router.navigateByUrl('/results');
       return;
     }
 

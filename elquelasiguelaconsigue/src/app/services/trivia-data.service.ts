@@ -28,12 +28,16 @@ export class TriviaDataService {
     this.name = userName;
   }
 
-  get gameHasFinished(): boolean {
+  get gameHasFinishedWithError(): boolean {
     if (this.incorrectTrivias.length == this.maximum_incorrect_answers) {
       return true;
     } 
     
-    if (this.step > this.trivias.length) {
+    return false;
+  }
+
+  get gamehasFinishedSuccessfully() {
+    if (this.step >= this.trivias.length) {
       return true;
     }
 
@@ -46,6 +50,18 @@ export class TriviaDataService {
 
   get lives(): number {
     return this.maximum_incorrect_answers - this.incorrectTrivias.length;
+  }
+
+  get totalTrivias(): number {
+    return this.trivias.length;
+  }
+
+  get correctCount(): number {
+    return this.totalTrivias - this.incorrectTrivias.length;
+  }
+
+  get currentStepIndex(): number {
+    return this.step + 1;
   }
 
   constructor() { }

@@ -5,8 +5,10 @@
                 <img class="heart-icon" *ngFor="let item of [].constructor(lives); let i = index" 
                 src="../../../assets/img/heart.svg" alt="corazón">
             </div>
+            <h4>{{currentStepIndex}}
+            </h4>
             <h3 class="question-text">{{trivia.question}}</h3>
-            <div class="container d-flex flex-row btn-container">
+            <div class="container-fluid d-flex flex-row btn-container">
                 <button class="btn btn-true" (click)="answer(true)">Verdadero</button>
                 <button class="btn btn-false" (click)="answer(false)">Falso</button>
             </div>

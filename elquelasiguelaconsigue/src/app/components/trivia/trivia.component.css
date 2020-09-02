@@ -19,11 +19,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.btn-true {
-    background-color: #ec8213;
-    -webkit-border-bottom-left-radius: 250px;
-    -moz-border-radius-bottomleft: 250px;
-    border-bottom-left-radius: 143px; 
+.btn-true, .btn-false {
     text-align: center; 
     padding: 45px;
     height: 196px;
@@ -31,6 +27,16 @@
     font-family: 'Roboto', sans-serif;;
     font-size: 43px;
     color: white;
+}
+
+.btn-true {
+    background-color: #ec8213;
+    -webkit-border-bottom-left-radius: 250px;
+    -moz-border-radius-bottomleft: 250px;
+    border-bottom-left-radius: 143px; 
+    
+    
+
 }
 
 .btn-false {
@@ -38,18 +44,10 @@
     -webkit-border-bottom-right-radius: 250px; 
     -moz-border-radius-bottomright: 250px; 
     border-bottom-right-radius: 143px;
-    text-align: center; 
-    padding: 45px;
-    height: 196px;
-    width: 375px;
-    font-family: 'Roboto', sans-serif;;
-    font-size: 43px;
-    color: white;
 }
 
 .question-text {
     height: 300px;
-    width: 1050px;
     color: white;
     background-color: #582999;
     padding: 53px;
