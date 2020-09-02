@@ -17,6 +17,10 @@ export class TriviaComponent implements OnInit {
     return this.triviaDataService.lives;
   }
 
+  get currentStepIndex(): string {
+    return this.triviaDataService.currentStepIndex + "/" + this.triviaDataService.totalTrivias;
+  }
+
   constructor(private triviaDataService: TriviaDataService, 
               private router: Router) {}
 
