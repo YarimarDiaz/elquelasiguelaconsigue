@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TriviaDataService } from './../../services/trivia-data.service';
 
 @Component({
   selector: 'app-game-over',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameOverComponent implements OnInit {
 
-  constructor() { }
+  get userName(): string {
+    return this.triviaDataService.userName;
+  }
+
+  constructor(private triviaDataService: TriviaDataService) { }
 
   ngOnInit(): void {
   }
