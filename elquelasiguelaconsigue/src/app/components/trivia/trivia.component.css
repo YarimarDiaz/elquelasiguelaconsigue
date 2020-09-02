@@ -30,17 +30,14 @@
 }
 
 .btn-true {
-    background-color: #ec8213;
+    background-color: #72BAEC;
     -webkit-border-bottom-left-radius: 250px;
     -moz-border-radius-bottomleft: 250px;
     border-bottom-left-radius: 143px; 
-    
-    
-
 }
 
 .btn-false {
-    background-color: #72BAEC;
+    background-color: #ec8213;
     -webkit-border-bottom-right-radius: 250px; 
     -moz-border-radius-bottomright: 250px; 
     border-bottom-right-radius: 143px;

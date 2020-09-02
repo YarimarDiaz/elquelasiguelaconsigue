@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { TriviaDataService } from '../../services/trivia-data.service';
 
 @Component({
-  selector: 'app-results',
-  templateUrl: './results.component.html',
-  styleUrls: ['./results.component.css']
+  selector: 'app-result',
+  templateUrl: './result.component.html',
+  styleUrls: ['./result.component.css']
 })
-export class ResultsComponent implements OnInit {
-
+export class ResultComponent implements OnInit {
+  
   get userName(): string {
     return this.triviaDataService.userName;
   }
