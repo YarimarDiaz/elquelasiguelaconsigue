@@ -5,6 +5,8 @@ import { TriviaComponent } from './components/trivia/trivia.component';
 import { TriviaAnswerComponent } from './components/trivia-answer/trivia-answer.component';
 import { InfomemesComponent } from './components/infomemes/infomemes.component';
 import { RankingComponent } from './components/ranking/ranking.component';
+import { ResultComponent } from './components/result/result.component';
+import { GameOverComponent } from './components/game-over/game-over.component';
 
 const routes: Routes = [
   {
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: 'ranking',
     component: RankingComponent
+  },
+  {
+    path: 'result',
+    component: ResultComponent
+  },
+  {
+    path: 'gameover',
+    component: GameOverComponent
   }
 ];
 
