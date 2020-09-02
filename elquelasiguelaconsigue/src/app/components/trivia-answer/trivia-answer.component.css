@@ -1,0 +1,48 @@
+.container-heart{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trivia-question {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.question-text {
+  min-height: 300px;
+  color: white;
+  background-color: #582999;
+  padding: 53px;
+  font-size: 43px;
+}
+
+.table th {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.table td {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.info-link {
+  background-color: #582999;
+}
+
+ .next {
+   color:  #582999;
+ }
+
+ .info-resp {
+   background-color: #E5E6FA;
+ }
