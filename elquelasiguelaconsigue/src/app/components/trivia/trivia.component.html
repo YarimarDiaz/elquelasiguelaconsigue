@@ -1,35 +1,15 @@
 <div class="container-fluid">
-    <div style="float: left" *ngFor="let item of [].constructor(lives); let i = index">
-        <img style="height: 30px; width: 30px;" src="../../../assets/img/heart.svg" alt="corazón">
-    </div>
-    <!--<div>
-        <img src="../../../assets/img/heart.svg" alt="corazón">
-    </div>
-    -->
-    <!--
-    <div class="triviaInfo" *ngFor="let trivia of triviaDataCall; index as i">
-        <div class="container trivia-question">
-            <p>{{trivia.question}}</p>
-            <button class="btn btn-true">Verdadero</button>
-            <button class="btn btn-false">Falso</button>
+    <div class="container">
+        <div class="container d-flex flex-column trivia-question">
+            <div class="container-heart">
+                <img class="heart-icon" *ngFor="let item of [].constructor(lives); let i = index" 
+                src="../../../assets/img/heart.svg" alt="corazón">
+            </div>
+            <h3 class="question-text">{{trivia.question}}</h3>
+            <div class="container d-flex flex-row btn-container">
+                <button class="btn btn-true" (click)="answer(true)">Verdadero</button>
+                <button class="btn btn-false" (click)="answer(false)">Falso</button>
+            </div>
         </div>
-        <div class="container trivia-explanation" id="explanation">
-            <p>{{trivia.explanation}}</p>
-        </div>
-        <div class="container trivia-source" id="source">
-            <p>{{trivia.source}}</p>
-        </div>
-    </div>
-    -->
-    <div class="container trivia-question">
-        <p>{{trivia.question}}</p>
-        <button class="btn btn-true" (click)="answer(true)">Verdadero</button>
-        <button class="btn btn-false" (click)="answer(false)">Falso</button>
-    </div>
-    <div class="container trivia-explanation" id="explanation">
-        <p>{{trivia.explanation}}</p>
-    </div>
-    <div class="container trivia-source" id="source">
-        <p>{{trivia.source}}</p>
     </div>
 </div>

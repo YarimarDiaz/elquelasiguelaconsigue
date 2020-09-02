@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
 
 @Injectable({
   providedIn: 'root'
@@ -49,7 +48,7 @@ export class TriviaDataService {
     return this.maximum_incorrect_answers - this.incorrectTrivias.length;
   }
 
-  constructor(private http: HttpClient) { }
+  constructor() { }
 
   next() {
     this.step++;
