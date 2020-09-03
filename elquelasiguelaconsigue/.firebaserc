@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "elquelasiguelaconsigue-7ea50": {
+      "hosting": {
+        "elquelasiguelaconsigue": [
+          "elquelasiguelaconsigue-7ea50"
+        ]
+      }
+    }
+  }
+}
