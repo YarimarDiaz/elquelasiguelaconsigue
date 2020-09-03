@@ -1,8 +1,8 @@
-# El que la sigue la consigue ✏️
+# El que la sigue la consigue ✏️📚📖📕
  Es una plataforma web que otorga información veráz y confiable sobre el Covid- 19 de manera lúdica y que además cumple con los criterios de conformidad de la accesibilidad WCAG2.0 de nivel AA .
  El objetivo final de este producto es educar al usuario a distinguir entre información confiable o fakenews fomentando el autocuidado, siendo así un aporte en esta lucha contra la pandemia global. 
 
- ## Visitanos!!!
+ ## Visitanos!!! 👋
  Eres bienvenido a jugar e informarte en el [Link a nuestra appWeb](https://elquelasiguelaconsigue-7ea50.web.app). 
 
 ## Trivia 💥 
@@ -15,10 +15,13 @@
  Jóvenes y Adultos que no manejan el lenguaje técnico en torno a la pandemia, que tengan dificultad visual y quieran información sobre el Covid-19 que provenga de fuentes confiables.
 
  ## Opciones de vista 🔍
- ### App responsive 💻
+ ### App responsive 📱
  ![celular1](https://github.com/Marce-8888/elquelasiguelaconsigue/blob/master/elquelasiguelaconsigue/src/assets/img/cel1.png)
  ![celular2](elquelasiguelaconsigue/src/assets/img/cel2.png)
+
+ ### App responsive 💻
  ![desktop2](elquelasiguelaconsigue/src/assets/img/desktop2.png)
+ 
 
   ## Herramientas 🔧
  - Para organización de equipo utilizamos tablero en [Trello](https://trello.com/b/Jtx0qHNo/proyecto-empresa).
