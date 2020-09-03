@@ -16,7 +16,7 @@
 
  ## Opciones de vista 🔍
  ### App responsive 💻
- ![celular1](../src/assets/img/cel1.png)
+ ![celular1](../elquelasiguelaconsigue/src/assets/img/cel1.png)
  ![celular2](../src/assets/img/cel2.png)
  ![desktop2](../src/assets/img/desktop2.png)
 
