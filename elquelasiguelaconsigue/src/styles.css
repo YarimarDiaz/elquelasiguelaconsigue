@@ -3,6 +3,94 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.highcontrast {
+  background-color: black !important;
+  color: white !important;
+}
+.highcontrast h3, .highcontrast .info-link, .highcontrast .info-resp{
+  background-color: black !important;
+  color: white !important;
+  border:1px solid white !important;
+}
+.highcontrast .nav-item a {
+  background-color: white !important;
+  color: black !important;
+}
+.highcontrast th,.highcontrast td {
+  background-color: white !important;
+  color: black !important;
+}
+.highcontrast button, .highcontrast a.btn {
+  background-color: white !important;
+  color: black !important;
+  border-color: white !important;
+}
+
+.highcontrast button.btn-false {
+  background-color: black !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.highcontrast .navbar-toggler {
+  background-color: black !important;
+}
+
+.highcontrast .btn-true {
+  border: 1px solid black !important;
+}
+
+.highcontrast .footer-basic {
+  background: black !important;
+  color: white !important;
+  border-top: 1px solid white !important;
+}
+
+.highcontrast .navbar {
+  background-color: white !important;
+}
+.highcontrast .next {
+  color: white !important;
+}
+
+.small h1 {
+  font-size: 12px;
+}
+.small h2 {
+  font-size: 11px;
+}
+.small h3 {
+  font-size: 10px;
+}
+.small h4 {
+  font-size: 9px;
+}
+.small div, .small p, .small span, .small input, .small button, .small th, .small td{
+  font-size: 9px  !important;
+}
+
+.large h1 {
+  font-size: 60px;
+}
+.large h2 {
+  font-size: 55px;
+}
+.large h3 {
+  font-size: 50px;
+}
+.large h4 {
+  font-size: 45px;
+}
+.large div, .large p, .large span, .large input, .large button, .large th, .large td {
+  font-size: 30px  !important;
+  line-height: 35px !important;
+
 }
 
 
+.footer-basic {
+  background: linear-gradient(-996deg, #582999, #72BAEC);
+}
