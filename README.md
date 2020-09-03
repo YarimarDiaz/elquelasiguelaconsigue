@@ -16,15 +16,17 @@
 
  ## Opciones de vista 🔍
  ### App responsive 💻
- ![celular1](../elquelasiguelaconsigue/src/assets/img/cel1.png)
+ ![celular1](elquelasiguelaconsigue\src\assets\img\cel1.png)
  ![celular2](../src/assets/img/cel2.png)
  ![desktop2](../src/assets/img/desktop2.png)
 
   ## Herramientas 🔧
- Como herramienta de diseño de prototipado utilizamos figma.
- Para dar estilo a nuestra interfaz utilizamos bootstrap y css.
- Para desarrollar nuestra app utilizamos el framework angular.
- Para desplegar nuestra aplicación utilizamos firebase hosting
+ -Para organización utilizamos tablero en [Trello](https://trello.com/b/Jtx0qHNo/proyecto-empresa).
+ - Para estructurar el flujo de nuestra interfaz utilizamos [](https://trello.com/c/pxicLxoX/6-diagrama-de-flujo).
+ - Como herramienta de diseño de prototipado de alta fidelidad utilizamos [figma](https://www.figma.com/file/2Sckv0VmmciiRweSpmarny/elquelasiguelacondigue?node-id=0%3A1).
+ - Para dar estilo a nuestra interfaz utilizamos bootstrap y CSS.
+ - Para desarrollar nuestra app utilizamos el framework Angular.
+ - Para desplegar nuestra aplicación utilizamos Firebase Hosting
 
  ## Autoras ⭐
  - Constanza Lafuente
