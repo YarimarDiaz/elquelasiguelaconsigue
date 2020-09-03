@@ -14,7 +14,8 @@
     font-family: 'Roboto', sans-serif;;
     font-size: 20px;
     color: white;
-    min-height: 60px;
+    min-height: 80px;
+
 }
 
 .btn-true {
@@ -32,11 +33,10 @@
 }
 
 .question-text {
-    min-height: 300px;
     color: white;
     background-color: #582999;
     padding: 53px;
-    font-size: 43px;
+    font-size: 1.5em;
 }
 
 .btn-container {
