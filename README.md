@@ -18,11 +18,11 @@
  ### App responsive 💻
  ![celular1](https://github.com/Marce-8888/elquelasiguelaconsigue/blob/master/elquelasiguelaconsigue/src/assets/img/cel1.png)
  ![celular2](elquelasiguelaconsigue/src/assets/img/cel2.png)
- ![desktop2](../src/assets/img/desktop2.png)
+ ![desktop2](elquelasiguelaconsigue/src/assets/img/desktop2.png)
 
   ## Herramientas 🔧
- - Para organización utilizamos tablero en [Trello](https://trello.com/b/Jtx0qHNo/proyecto-empresa).
- - Para estructurar el flujo de nuestra interfaz utilizamos [](https://trello.com/c/pxicLxoX/6-diagrama-de-flujo).
+ - Para organización de equipo utilizamos tablero en [Trello](https://trello.com/b/Jtx0qHNo/proyecto-empresa).
+ - Para estructurar el flujo de nuestra interfaz utilizamos [Lucidchart](https://app.lucidchart.com/invitations/accept/37d7a1b0-3eb4-4106-9b69-7298d63da454).
  - Como herramienta de diseño de prototipado de alta fidelidad utilizamos [figma](https://www.figma.com/file/2Sckv0VmmciiRweSpmarny/elquelasiguelacondigue?node-id=0%3A1).
  - Para dar estilo a nuestra interfaz utilizamos bootstrap y CSS.
  - Para desarrollar nuestra app utilizamos el framework Angular.
