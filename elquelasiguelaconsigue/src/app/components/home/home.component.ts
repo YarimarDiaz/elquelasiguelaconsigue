@@ -11,18 +11,22 @@ import { TriviaDataService } from '../../services/trivia-data.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router, private http: HttpClient, private triviaDataService: TriviaDataService) { }
-
+  constructor(private router: Router,// Propiedad privada router que guarda clase importada Router 
+              private http: HttpClient,// Propiedad privada http que guarda clase importada HttpClient
+              private triviaDataService: TriviaDataService) { }
+              // Propiedad triviaDataService guarda clase importada dle servicio TriviaDataService 
+  
+  // Función start de botón "Comenzar" que recibe UserName ingresado por usuario en esta vista            
   start(userName) {
     console.log('imprime nombre:' + userName);
     
-    const data = '../../assets/data/trivia.json'
+    const data = '../../assets/data/trivia.json' // Guardamos en esta constante la data de la trivia.json
     
-    this.http.get(data).subscribe(result => {
-      this.triviaDataService.reset();
-      this.triviaDataService.userName = userName;
-      this.triviaDataService.updateTrivias = result['trivias'];
-      this.router.navigateByUrl('/trivia');
+    this.http.get(data).subscribe(result => { // Método subscribe que nos retornará un observable de: 
+      this.triviaDataService.reset(); // se ejecuta función reset para limpiar datos de juego anterior
+      this.triviaDataService.userName = userName; // Se obtiene nombre usuario
+      this.triviaDataService.updateTrivias = result['trivias']; // Se actualizan las preguntas según sus datos de trivia.json
+      this.router.navigateByUrl('/trivia'); // Cambio de ruta a vista trivia
     })
   }
 
