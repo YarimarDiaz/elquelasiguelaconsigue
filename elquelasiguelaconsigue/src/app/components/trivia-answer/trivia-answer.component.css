@@ -10,11 +10,10 @@
   flex-direction: column;
 }
 .question-text {
-  min-height: 300px;
   color: white;
   background-color: #582999;
   padding: 53px;
-  font-size: 43px;
+  font-size: 1.5em;
 }
 
 .table th {
@@ -45,4 +44,11 @@
 
  .info-resp {
    background-color: #E5E6FA;
+   color: #582999;
+ }
+
+ .calificacion {
+   color: #582999;
+   font-size: 1.5em;
+   font-weight: bold;
  }

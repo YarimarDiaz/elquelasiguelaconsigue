@@ -8,11 +8,12 @@ import { TriviaDataService } from './../../services/trivia-data.service';
 })
 export class GameOverComponent implements OnInit {
 
+  // Nos permite interpolar el nombre del usuario en el template
   get userName(): string {
     return this.triviaDataService.userName;
   }
 
-  constructor(private triviaDataService: TriviaDataService) { }
+  constructor(private triviaDataService: TriviaDataService) { } 
 
   ngOnInit(): void {
   }

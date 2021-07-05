@@ -1,105 +1,48 @@
-<!--<div class="container">
-    <div style="float: left" *ngFor="let item of [].constructor(lives); let i = index">
-        <img style="height: 30px; width: 30px;" src="../../../assets/img/heart.svg" alt="corazón">
-    </div>
-    <div>
-        <div>
-            <p>{{trivia.question}}</p>
-            <div *ngIf="isCurrentAnswerCorrect; else elseBlock">
-                <p>¡Muy Bien!</p>
-                <img src="" alt="cara feliz">
-            </div>
-            <ng-template #elseBlock>
-                <p>¡Incorrecto!</p>
-                <img src="" alt="cara confundida">
-            </ng-template>
-            <p>{{trivia.explanation}}</p>
-            <p>{{trivia.source}}</p>
-            <button (click)="next()">
-                <img src="../../../assets/img/arrowright.svg" alt="continuar">
-            </button>
-        </div>
-    </div>
-</div>-->
-
-
-<!--<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-xs-12">
-      <div *ngFor="let item of [].constructor(lives); let i = index">
-        <img src="../../../assets/img/heart.svg" alt="Responsive image" class="img-fluid">
-      </div>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <div>
-        <p>{{trivia.question}}</p>
-      </div>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <div *ngIf="isCurrentAnswerCorrect; else elseBlock">
-        <h1>¡Muy Bien!</h1>
-      </div>
-        <ng-template #elseBlock>
-          <h1>¡Incorrecto!</h1>
-        </ng-template>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <p>{{trivia.explanation}}</p>
-    </div>
-    <div class="col-md-6 col-xs-12">
-      <p>{{trivia.source}}</p>
-    </div>
-    <div>
-      <button (click)="next()">
-        <img src="../../../assets/img/arrowright.svg" alt="continuar">
-    </button>
-    </div>
-  </div>
-</div>
-<br>-->
 <div class="container-fluid">
   <div class="container">
     <div class="container d-flex flex-column trivia-question">
       <div class="row">
-        <div class="col" *ngFor="let item of [].constructor(lives); let i = index">
+        <div class="col-2" *ngFor="let item of [].constructor(lives); let i = index">
           <img class="heart-icon img-fluid" src="../../../assets/img/heart.svg" alt="corazón">
         </div>
       </div>
 
       <h3 class="question-text">{{trivia.question}}</h3>
       <div class="row">
-        <div class="col" *ngIf="isCurrentAnswerCorrect; else elseBlock">
-          <div class="row">
-            <div class="col"> ¡Muy Bien!</div>
-            <div class="col">
-              <img src="../../../assets/img/correcto.png" alt="">
-            </div>
-          </div>
-
+        <div class="col text-center pt-4 calificacion" *ngIf="isCurrentAnswerCorrect; else elseBlock">
+          ¡Muy Bien!
         </div>
         <ng-template #elseBlock>
-          <div class="row">
-            <div class="col"> ¡Incorrecto!</div>
-            <div class="col">
-              <img src="../../../assets/img/incorrecto.png" alt="">
-            </div>
+          <div class="col text-center pt-4 calificacion">
+            ¡Incorrecto!
           </div>
-
         </ng-template>
-        <div class="col text-right">
+        <div class="col" *ngIf="isCurrentAnswerCorrect; else elseBlock2">
+          <img src="../../../assets/img/correcto.png" alt="">
+        </div>
+        <ng-template #elseBlock2>
+          <div class="col">
+            <img src="../../../assets/img/incorrecto.png" alt="">
+          </div>
+        </ng-template>
+
+
+        <div class="col-2 text-right">
           <a (click)="next()">
             <i class="fa fa-arrow-circle-right fa-5x next" alt="continuar"></i>
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col info-resp">{{trivia.explanation}}</div>
-      </div>
-      <div class="row">
-        <div class="col info-link">¿Quieres saber más?<a href="{{trivia.source}}">Información</a></div>
-
-      </div>
-
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col info-resp p-2">{{trivia.explanation}}</div>
+      </div>
+      <div class="row">
+        <div class="col info-link text-white p-2">¿Quieres saber más? <a href="{{trivia.source}}" target="_blank">ir a
+            enlace</a></div>
+      </div>
+    </div>
+
   </div>
 </div>
